@@ -10,25 +10,32 @@ public class ClassTwo {
     private double myDouble;
     private char myChar;
     private boolean myBoolean;
+
     // Создание геттеров и сеттеров для примитивных переменных
-    public void setMyByte (byte personalByte){
+    public void setMyByte(byte personalByte) {
         myByte = personalByte;
     }
-    public byte getMyByte(){
+
+    public byte getMyByte() {
         return myByte;
     }
-    public void setMyShort(short personalByte){
+
+    public void setMyShort(short personalByte) {
         myShort = personalByte;
     }
+
     public short getMyShort() {
         return myShort;
     }
-    public void setMyInt (int personalInt){
+
+    public void setMyInt(int personalInt) {
         myInt = personalInt;
     }
+
     public int getMyInt() {
         return myInt;
     }
+
     public void setMyLong(long personalLong) {
         myLong = personalLong;
     }
@@ -36,21 +43,24 @@ public class ClassTwo {
     public long getMyLong() {
         return myLong;
     }
-    public void setMyFloat(float personalFloat){
+
+    public void setMyFloat(float personalFloat) {
         myFloat = personalFloat;
     }
 
     public float getMyFloat() {
         return myFloat;
     }
-    public void setMyDouble(double personalDouble){
-        myDouble=personalDouble;
+
+    public void setMyDouble(double personalDouble) {
+        myDouble = personalDouble;
     }
 
     public double getMyDouble() {
         return myDouble;
     }
-    public void setMyChar (char personalChar){
+
+    public void setMyChar(char personalChar) {
         myChar = personalChar;
     }
 
@@ -61,7 +71,8 @@ public class ClassTwo {
     public void setMyBoolean(Boolean personalBoolean) {
         myBoolean = personalBoolean;
     }
-    public boolean getMyBoolean(){
+
+    public boolean getMyBoolean() {
         return myBoolean;
     }
 
@@ -76,70 +87,79 @@ public class ClassTwo {
     private Boolean myBooleanWrapper;
     // Создание сеттеров и геттеров для оберток
 
-    public void setMyByteWrapper(Byte personalByteWrap){
+    public void setMyByteWrapper(Byte personalByteWrap) {
         myByteWrapper = personalByteWrap;
     }
+
     public Byte getMyByteWrapper() {
         return myByteWrapper;
     }
-    public void setMyShortWrapper (Short personalShortWrap){
-        myShortWrapper =personalShortWrap;
+
+    public void setMyShortWrapper(Short personalShortWrap) {
+        myShortWrapper = personalShortWrap;
     }
-    public Short getMyShortWrapper(){
+
+    public Short getMyShortWrapper() {
         return myShortWrapper;
     }
-    public void setMyIntWrapper (Integer personalIntWrap){
+
+    public void setMyIntWrapper(Integer personalIntWrap) {
         myIntWrapper = personalIntWrap;
     }
-    public Integer getMyIntWrapper (){
+
+    public Integer getMyIntWrapper() {
         return myIntWrapper;
     }
-    public void setMyLongWrapper (Long personalLongWrap){
+
+    public void setMyLongWrapper(Long personalLongWrap) {
         myLongWrapper = personalLongWrap;
     }
-    public Long getMyLongWrapper(){
+
+    public Long getMyLongWrapper() {
         return myLongWrapper;
     }
-    public void setMyFloatWrapper (Float personalFloatWrap){
+
+    public void setMyFloatWrapper(Float personalFloatWrap) {
         myFloatWrapper = personalFloatWrap;
     }
-    public Float getMyFloatWrapper(){
+
+    public Float getMyFloatWrapper() {
         return myFloatWrapper;
     }
-    public void setMyDoubleWrapper(Double personalDoubleWrap){
+
+    public void setMyDoubleWrapper(Double personalDoubleWrap) {
         myDoubleWrapper = personalDoubleWrap;
     }
 
     public Double getMyDoubleWrapper() {
         return myDoubleWrapper;
     }
-    public void setMyCharWrapper(Character personalCharWrap){
+
+    public void setMyCharWrapper(Character personalCharWrap) {
         myCharWrapper = personalCharWrap;
     }
-    public Character getMyCharWrapper(){
+
+    public Character getMyCharWrapper() {
         return myCharWrapper;
     }
 
     public void setMyBooleanWrapper(Boolean personalBooleanWrap) {
         myBooleanWrapper = personalBooleanWrap;
     }
-    public Boolean getMyBooleanWrapper(){
+
+    public Boolean getMyBooleanWrapper() {
         return myBooleanWrapper;
     }
 
     // Создание строкового типа данных
     private String myString;
+
     // Создание геттера и сеттера для строки
-    public void setMyString(String personalString){
+    public void setMyString(String personalString) {
         myString = personalString;
     }
-    public String getMyString(){
+
+    public String getMyString() {
         return myString;
     }
-
-
-
-
-
-
 }

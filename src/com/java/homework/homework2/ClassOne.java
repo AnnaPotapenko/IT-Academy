@@ -1,7 +1,7 @@
 package com.java.homework.homework2;
 
 public class ClassOne {
-    public static void main(String[]args){
+    public static void main(String[] args){
         //Создаем локальные переменные используя поля класса2
         ClassTwo MyClass = new ClassTwo();
         MyClass.setMyByte((byte)-5); // Пришлось привести к байту, т.к. значение в классе указано как байт, а просто число 5 это инт.
@@ -25,7 +25,7 @@ public class ClassOne {
         MyClass.setMyString("Это строка");
         // Вывод на консоль
         System.out.println("Выводим на консоль примитивные переменные:");
-        System.out.println("byte = "+ MyClass.getMyByte());
+        System.out.println("byte = " + MyClass.getMyByte());
         System.out.println("short = " + MyClass.getMyShort());
         System.out.println("int = " + MyClass.getMyInt());
         System.out.println("long = " + MyClass.getMyLong());
@@ -44,13 +44,6 @@ public class ClassOne {
         System.out.println("Boolean is " + MyClass.getMyBooleanWrapper());
         System.out.println("Вывод строки:");
         System.out.println("String: " + MyClass.getMyString());
-
-
-
-
-
-
-
-
+        System.out.println("Конец");
     }
 }
