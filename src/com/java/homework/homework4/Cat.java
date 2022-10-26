@@ -6,6 +6,12 @@ public class Cat {
     private String catName = "Barsik";
     private int catAge = 2;
 
+    static int catObjectCount = 0; // переменная для подсчета колличества созданых котов (экземпляров класса кот)
+
+    {
+        catObjectCount += 1;
+    }
+
     public Cat() {
 
     }
@@ -15,6 +21,7 @@ public class Cat {
         this.catAge = catAge;
 
     }
+
 
     public void setCatAge(int catAge) {
         this.catAge = catAge;

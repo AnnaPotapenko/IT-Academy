@@ -13,12 +13,14 @@ public class Main {
 
         System.out.println("Выводим котиков с циклом while и дефолтным значением");
 
+
         while (catCount != 11) {
-            Cat cat1 = new Cat();
             System.out.print("Cat № " + catCount + ": ");
-            System.out.println(cat1);
+            System.out.println(new Cat());
             catCount++;
+
         }
+        System.out.println("Кол-во котов = " + Cat.catObjectCount);
 
 
         System.out.println("Выводим котиков через цикл for с рандомным именем и возрастом");
@@ -33,19 +35,21 @@ public class Main {
             System.out.print("Cat № " + i + ": ");
             System.out.println(cat2.getCatName() + cat2.getCatAge());
         }
+        System.out.println("Кол-во котов = " + Cat.catObjectCount);
 
 
         System.out.println("Выводим котиков через цикл do while с конструктором");
 
 
         do {
-            Cat cat3 = new Cat("Polly", 11);
+
             System.out.print("Cat № " + catNumberForDoWhile + ": ");
-            System.out.println(cat3);
+            System.out.println(new Cat("Polly", 11));
             catNumberForDoWhile++;
 
 
         } while (catNumberForDoWhile != 11);
+        System.out.println("Кол-во котов = " + Cat.catObjectCount);
 
 
         System.out.println("Выводим котиков через цикл foreach и массив");
@@ -60,18 +64,22 @@ public class Main {
             System.out.println(catDiscription);
         }
 
+        System.out.println("Кол-во котов = " + Cat.catObjectCount);
+
         System.out.println("Сравним экземпляры класса Cat, находящиеся в массиве");
 
         System.out.println(catArray[2].equals(catArray[0])); // должно быть фолс
         System.out.println(catArray[2].equals(catArray[4])); // тру
 
-        System.out.println("Создадим три новых экземпляра и сравним их");
+        System.out.println("Создадим 2 новых экземпляра и сравним их");
 
         Cat catBarsik2 = new Cat("Barsik", 2);
         Cat catBarsic2 = new Cat("Barsic", 2);
 
         System.out.println(catBarsik2.equals(catArray[2])); // должно быть тру
         System.out.println(catBarsic2.equals(catBarsik2)); // должно быть фолс
+
+        System.out.println("Кол-во котов = " + Cat.catObjectCount);
 
 
     }
